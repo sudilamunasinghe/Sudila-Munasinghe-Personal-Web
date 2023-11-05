@@ -10932,11 +10932,13 @@ body.template-color-1 {
 
 .logo a img {
     transition: 0.3s;
+    width: 80px;
+    border-radius: 50%;
 }
 
-@media only screen and (max-width: 767px) {
-    .logo a img {
-        max-height: 54px;
+@media screen and (max-width: 780px){
+    .logo a img{
+        width: 60px;
     }
 }
 
