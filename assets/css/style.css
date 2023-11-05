@@ -11174,7 +11174,7 @@ body.template-color-1 {
 }
 
 .popup-mobile-menu .inner {
-    padding: 25px 40px;
+    padding: ;
     width: 375px;
     z-index: 999;
     position: absolute;
@@ -14192,6 +14192,13 @@ body.modal-open {
     font-weight: 400;
     margin-bottom: 0;
     width: 93%;
+}
+.project-para{
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--color-body);
+    font-weight: 400;
+    margin-bottom: 0;
 }
 
 .modal .modal-dialog .modal-content .modal-body .text-content p:nth-child(1) {
@@ -17962,6 +17969,10 @@ span.sr-only {
     Portfolio Area Styles 
 -----------------------------*/
 
+.projects-card a img{
+    min-height: 130px;
+    
+}
 .rn-portfolio,
 .rn-blog {
     text-align: left;
@@ -18003,7 +18014,7 @@ span.sr-only {
     width: 100%;
     transition: var(--transition);
     height: auto;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
