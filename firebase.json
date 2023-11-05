@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "sudila",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
