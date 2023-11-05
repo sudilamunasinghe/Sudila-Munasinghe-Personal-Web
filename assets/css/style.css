@@ -13352,6 +13352,10 @@ figcaption {
     }
 }
 
+.icon img{
+    width: 80px;
+}
+
 .thumbnail.masking .inner {
     -webkit-mask-image: url("../images/icones/shape1.svg");
     mask-image: url("../images/icones/shape1.svg");
